@@ -1,0 +1,17 @@
+.container {
+  background: linear-gradient(316.9deg, #3f6d82 7.49%, #0c2936 113.69%);
+  padding: 1.7rem 0.9rem 1.6rem 3.3rem;
+  height: 30rem;
+  width: 30rem;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+}
