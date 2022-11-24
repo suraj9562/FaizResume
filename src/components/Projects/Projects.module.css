@@ -1,0 +1,22 @@
+.container {
+  padding: 3rem 6rem;
+}
+
+.container .header .line {
+  width: 36.5%;
+  height: 3px;
+  background: #000000;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 8rem;
+  text-transform: capitalize;
+}
