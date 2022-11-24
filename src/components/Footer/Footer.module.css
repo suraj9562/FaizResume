@@ -1,0 +1,11 @@
+.container {
+  background: linear-gradient(93.47deg, #d66853 0.75%, #924e83 101.07%);
+  padding: 5rem 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+

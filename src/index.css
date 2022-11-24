@@ -21,6 +21,7 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   border: none;
+  user-select: none;
 }
 
 /* width */
