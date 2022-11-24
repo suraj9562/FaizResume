@@ -1,0 +1,13 @@
+.container {
+  padding: 9rem 34rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.container img {
+  height: 20rem;
+  width: 100%;
+}
