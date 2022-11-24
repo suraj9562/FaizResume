@@ -20,3 +20,83 @@
   text-transform: capitalize;
   line-height: 8rem;
 }
+
+.container .content {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.container .content .card {
+  padding: 5rem;
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  background: linear-gradient(101.04deg, #d66853 0.43%, #924e83 102.45%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container .content .card .left {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content .card .left .cardHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .content .card .left .cardHeader .name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.6rem;
+  line-height: 8rem;
+  letter-spacing: 0.15em;
+}
+
+.container .content .card .left .cardHeader .subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 4rem;
+}
+
+.container .content .card .left .pinpoints {
+  border-top: 2px solid #ffffff;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container .content .card .left .pinpoints .point {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 4rem;
+}
+
+.container .content .card .right img {
+  width: 25rem;
+}
+
+.container .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.container .icons img {
+  height: 4.5rem;
+  width: 4.5rem;
+  cursor: pointer;
+}
