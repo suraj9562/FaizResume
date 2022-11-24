@@ -5,7 +5,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
   color: #ffffff;
 }
 
+.container .heading {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 6.2rem;
+}
 
+.container .secondLine {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.container .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 3.1rem;
+}
+
+.container .verticalLine {
+  width: 1.5px;
+  background: #ffffff;
+}
+
+.container .text img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
