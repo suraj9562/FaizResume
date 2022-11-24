@@ -9,7 +9,7 @@ function Skills() {
         Skills
         <div className={cssClasses.line}></div>
       </div>
-      <div className={cssClasses.content}></div>
+      <div className={cssClasses.content}>Corosoul here</div>
     </div>
   );
 }
